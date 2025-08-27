@@ -35,34 +35,6 @@ O processo é documentado em um **Jupyter Notebook**, com todas as etapas detalh
 
 ---
 
-## ▶️ Como Executar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/elt-loja-varejo.git
-   cd elt-loja-varejo
-   ```
-
-2. Crie e ative um ambiente virtual:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Linux/Mac
-   venv\Scripts\activate    # Windows
-   ```
-
-3. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Abra o Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-5. Execute o arquivo `ELT-Loja-Varejo.ipynb`.
-
----
-
 ## ⚡ Explicação do Código
 
 O notebook segue as três etapas do processo **ELT**:
@@ -116,11 +88,3 @@ flowchart LR
 - Automatizar o pipeline de ELT com **Airflow** ou **Prefect**  
 - Armazenar dados tratados em um **Data Warehouse** (ex.: BigQuery, Snowflake)  
 - Criar dashboards interativos em **Power BI** ou **Tableau**  
-
----
-
-## 🧑‍💻 Autor
-- **Seu Nome**  
-📧 Email: seuemail@exemplo.com  
-🔗 [LinkedIn](https://linkedin.com/in/seuusuario)  
-🔗 [GitHub](https://github.com/seu-usuario)
